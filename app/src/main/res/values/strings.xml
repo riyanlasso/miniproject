@@ -4,5 +4,9 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="signin">Sign in</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="telepon">No.Handphone</string>
+
 
 </resources>
