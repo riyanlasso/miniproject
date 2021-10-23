@@ -123,7 +123,13 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:text="@string/signin"/>
-
+        <Button
+            style="@style/btn_blue_primary"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_register"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/register"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
