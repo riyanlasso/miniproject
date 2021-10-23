@@ -11,7 +11,7 @@
         android:layout_width="192dp"
         android:layout_height="110dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/title"
         android:src="@drawable/cinema"
@@ -115,7 +115,6 @@
 
                 />
         </LinearLayout>
-
         <Button
             style="@style/btn_blue_primary"
             android:layout_marginTop="10dp"
@@ -123,6 +122,13 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:text="@string/signin"/>
+        <Button
+            style="@style/btn_blue_primary"
+            android:layout_marginTop="10dp"
+            android:id="@+id/register_button"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/register"/>
 
 
     </LinearLayout>
