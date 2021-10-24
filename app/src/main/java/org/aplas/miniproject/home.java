@@ -8,24 +8,24 @@ import android.view.View;
 import android.widget.Button;
 
 public class home extends AppCompatActivity {
-    private Button btn_booking;
+    private Button btn_pesan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        btn_booking = (Button) findViewById(R.id.btn_booking);
-        btn_booking.setOnClickListener(new View.OnClickListener() {
+        btn_pesan = (Button) findViewById(R.id.btn_pesan);
+        btn_pesan.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view3) {
-
-                openView();
+            public void onClick(View view) {
+                openTicket();
             }
         });
+
     }
 
-    public void openView() {
-        Intent intent3 = new Intent(this,pesan_tiket.class);
-        startActivity(intent3);
+    public void openTicket() {
+        Intent intent = new Intent(this,pilihkursi.class);
+        startActivity(intent);
     }
 }

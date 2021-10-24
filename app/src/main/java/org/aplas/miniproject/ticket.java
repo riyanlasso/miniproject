@@ -7,36 +7,36 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class payment extends AppCompatActivity {
-    private Button btn_pay , btn_back4;
+public class ticket extends AppCompatActivity {
+    private Button btn_next2 , btn_back2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment);
-        btn_pay = (Button) findViewById(R.id.btn_pay);
-        btn_back4 = (Button) findViewById(R.id.btn_back4);
+        setContentView(R.layout.activity_ticket);
+        btn_next2 = (Button) findViewById(R.id.btn_next2);
+        btn_back2 = (Button) findViewById(R.id.btn_back2);
 
-        btn_pay.setOnClickListener(new View.OnClickListener() {
+        btn_next2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                opensuccessPayment();
+                openPayment();
             }
         });
 
-        btn_back4.setOnClickListener(new View.OnClickListener() {
+        btn_back2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 backPage();
             }
         });
     }
-    public void opensuccessPayment(){
-        Intent intent = new Intent(this,successpay.class);
+    public void openPayment(){
+        Intent intent = new Intent(this,payment.class);
         startActivity(intent);
     }
     public void backPage(){
-        Intent intent1 = new Intent(this,ticket.class);
+        Intent intent1 = new Intent(this,pilihkursi.class);
         startActivity(intent1);
     }
-
 }

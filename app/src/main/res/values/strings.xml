@@ -47,6 +47,7 @@
     <string name="BNI">BNI</string>
     <string name="gopay">GO PAY</string>
     <string name="ovo">OVO</string>
+    <string name="logout">LOGOUT</string>
 
 
 </resources>

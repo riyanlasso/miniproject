@@ -13,12 +13,13 @@ private Button btn_back , btn_register;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
         btn_back = (Button) findViewById(R.id.btn_back);
         btn_register = (Button) findViewById(R.id.btn_register);
+
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 openMain();
             }
         });

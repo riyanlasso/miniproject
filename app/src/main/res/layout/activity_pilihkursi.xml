@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
                 android:background="@color/white"
                 android:orientation="vertical"
@@ -59,6 +59,7 @@
                 android:paddingRight="24dp"
                 android:paddingBottom="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView">
 
@@ -69,32 +70,33 @@
 
                     android:text="@string/pilihkursi"
                     android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:textStyle="bold"
                     android:text="@string/Reguler"
                     android:textColor="@color/grayprimary"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
                 <HorizontalScrollView
                     android:layout_width="310dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="10px"
-                    >
+                    android:layout_marginTop="10px">
+
                     <LinearLayout
                         android:layout_width="310dp"
                         android:layout_height="200dp"
 
                         >
+
                         <ImageView
                             android:layout_width="400dp"
                             android:layout_height="200dp"
-                            android:src="@drawable/kursi2"
-                            >
+                            android:src="@drawable/kursi2">
 
                         </ImageView>
                     </LinearLayout>
@@ -104,49 +106,56 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:text="@string/kursidipilih"
                     android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:textSize="16sp"
-                    android:layout_marginTop="8dp"
-                    />
+                    android:textStyle="bold" />
+
                 <ScrollView
                     android:layout_width="310dp"
                     android:layout_height="200dp"
 
                     >
+
                     <LinearLayout
                         android:layout_width="300dp"
                         android:layout_height="200dp"
-
                         >
                         <ImageView
                             android:layout_width="300dp"
-                            android:layout_height="400dp"
-                            android:src="@drawable/calendar"
-                            >
+                            android:layout_height="200dp"
+                            android:src="@drawable/calendar">
 
                         </ImageView>
                     </LinearLayout>
 
                 </ScrollView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:text="@string/jadwal"
                     android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:textSize="16sp"
-                    android:layout_marginTop="8dp"
-                    />
+                    android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/btn_next1"
                     style="@style/btn_blue_primary"
-                    android:layout_marginTop="10dp"
-                    android:id="@+id/btn_booking"
                     android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="24dp"
-                    android:text="@string/next"/>
+                    android:text="@string/next" />
+                <Button
+                    android:id="@+id/btn_back1"
+                    style="@style/btn_blue_primary"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="24dp"
+                    android:text="@string/back" />
 
             </LinearLayout>
 
