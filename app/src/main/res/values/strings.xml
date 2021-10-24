@@ -8,7 +8,7 @@
     <string name="email">Email</string>
     <string name="telepon">No.Handphone</string>
     <string name="checkout">CHECKOUT</string>
-    <string name="checkout1">Detail Pembayaran</string>
+    <string name="checkout1">Detail Tiket</string>
     <string name="back">BACK</string>
     <string name="deskripsi">Tayang Sekarang</string>
     <string name="main_menu">Main Menu</string>
@@ -35,6 +35,18 @@
     <string name="Reguler">Reguler</string>
     <string name="kursidipilih">Kursi dipilih : A1 , A2</string>
     <string name="jadwal">Jadwal yang dipilih : 25 - 10 - 2021</string>
+    <string name="payment">PAYMENT</string>
+    <string name="checkout2">Detail Pembayaran</string>
+    <string name="metodepembayaran">Metode Pembayaran</string>
+    <string name="BCA">BCA</string>
+    <string name="BRI">BRI</string>
+    <string name="LinkAja">Link Aja</string>
+    <string name="bayarditempat">Cash On Delivery / bayar di tempat</string>
+    <string name="success">THANKS FOR PAY</string>
+    <string name="scan">Please scan the QR code below to take the ticket at the ticket machine</string>
+    <string name="BNI">BNI</string>
+    <string name="gopay">GO PAY</string>
+    <string name="ovo">OVO</string>
 
 
 </resources>

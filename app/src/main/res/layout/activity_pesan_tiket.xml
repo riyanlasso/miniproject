@@ -133,7 +133,8 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="25dp"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:scrollbars="none">
 
                 <LinearLayout
                     android:layout_width="40dp"
@@ -277,8 +278,9 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="10dp"
             android:background="@color/grayprimary" />
+
 
         <Button
             style="@style/btn_blue_primary"
@@ -286,7 +288,7 @@
             android:id="@+id/btn_pay"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:text="@string/bayar"/>
+            android:text="@string/next"/>
         <Button
             style="@style/btn_blue_primary"
             android:layout_marginTop="10dp"
