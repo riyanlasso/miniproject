@@ -30,6 +30,11 @@
     <string name="pesan">BOOKING</string>
     <string name="jam">10.00 AM</string>
     <string name="kursi">A1 , A2</string>
+    <string name="next">NEXT</string>
+    <string name="pilihkursi">Pilih Kursi</string>
+    <string name="Reguler">Reguler</string>
+    <string name="kursidipilih">Kursi dipilih : A1 , A2</string>
+    <string name="jadwal">Jadwal yang dipilih : 25 - 10 - 2021</string>
 
 
 </resources>

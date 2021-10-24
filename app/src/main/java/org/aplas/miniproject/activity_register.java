@@ -22,12 +22,23 @@ private Button btn_back , btn_register;
                 openMain();
             }
         });
+        btn_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view1) {
+
+                openHome();
+            }
+        });
 
     }
 
     public void openMain() {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+    }
+    public void openHome() {
+        Intent intent1 = new Intent(this,home.class);
+        startActivity(intent1);
     }
 
 }

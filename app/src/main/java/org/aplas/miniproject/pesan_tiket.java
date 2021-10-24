@@ -14,17 +14,6 @@ public class pesan_tiket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pesan_tiket);
-        btn_back = (Button) findViewById(R.id.btn_back);
-        btn_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openlogin();
-            }
-        });
-    }
 
-    public void openlogin() {
-        Intent intent = new Intent(this,home.class);
-        startActivity(intent);
     }
 }
