@@ -7,7 +7,26 @@
     <string name="register">Register</string>
     <string name="email">Email</string>
     <string name="telepon">No.Handphone</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="checkout1">Detail Pembayaran</string>
     <string name="back">BACK</string>
+    <string name="deskripsi">Tayang Sekarang</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="spongebob">Spongebob</string>
+    <string name="got">Game Of Thrones</string>
+    <string name="inuyasha">Inuyasha</string>
+    <string name="frozen">Frozen</string>
+    <string name="hum">Human Centipede</string>
+    <string name="home">Home Alone</string>
+    <string name="lokasi">Matos</string>
+    <string name="harga">Harga Per Tiket</string>
+    <string name="hargapertiket">50000</string>
+    <string name="hargatotal">Total Harga</string>
+    <string name="total">100000</string>
+    <string name="bayar">PAY</string>
+    <string name="kembali">BACK</string>
+    <string name="daftarfilm">DAFTAR FILM</string>
 
 
 </resources>
