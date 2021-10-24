@@ -27,6 +27,9 @@
     <string name="bayar">PAY</string>
     <string name="kembali">BACK</string>
     <string name="daftarfilm">DAFTAR FILM</string>
+    <string name="pesan">BOOKING</string>
+    <string name="jam">10.00 AM</string>
+    <string name="kursi">A1 , A2</string>
 
 
 </resources>

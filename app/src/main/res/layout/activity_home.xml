@@ -22,8 +22,6 @@
                 android:id="@+id/imageview"
                 android:layout_width="192dp"
                 android:layout_height="110dp"
-
-
                 android:contentDescription="@string/title"
                 android:src="@drawable/cinema"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -99,9 +97,6 @@
                 </LinearLayout>
 
             </HorizontalScrollView>
-
-
-
 
 
             <LinearLayout
@@ -215,7 +210,6 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-
                             android:src="@drawable/frozen" />
 
                         <TextView
@@ -311,7 +305,7 @@
                     android:id="@+id/booking"
                     android:layout_marginLeft="24dp"
                     android:layout_marginRight="24dp"
-                    android:text="@string/daftarfilm"/>
+                    android:text="@string/pesan"/>
 
             </LinearLayout>
 

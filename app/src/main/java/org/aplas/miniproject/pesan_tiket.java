@@ -24,7 +24,7 @@ public class pesan_tiket extends AppCompatActivity {
     }
 
     public void openlogin() {
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this,home.class);
         startActivity(intent);
     }
 }
