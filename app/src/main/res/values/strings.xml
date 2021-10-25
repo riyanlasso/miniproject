@@ -48,6 +48,7 @@
     <string name="gopay">GO PAY</string>
     <string name="ovo">OVO</string>
     <string name="logout">LOGOUT</string>
+    <string name="jam1">Jam yang dipilih : 10.00 AM</string>
 
 
 </resources>
